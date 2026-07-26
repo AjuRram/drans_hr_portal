@@ -1,0 +1,33 @@
+# This repository holds documentation and screenshots ONLY.
+# Nothing below should ever be committed here.
+
+# Secrets / configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials*
+secrets*
+
+# Application source (kept in the private application repository)
+*.py
+*.js
+*.jsx
+*.ts
+*.tsx
+requirements*.txt
+package*.json
+
+# Databases and dumps
+*.sqlite3
+*.db
+*.sql
+*.dump
+
+# Local noise
+.DS_Store
+Thumbs.db
+node_modules/
+__pycache__/
+venv/
